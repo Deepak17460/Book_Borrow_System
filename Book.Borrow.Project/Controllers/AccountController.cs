@@ -58,7 +58,7 @@ namespace Book.Borrow.Project.Controllers
 
                 TempData["success"] = "Register Successful";
                 return StatusCode(StatusCodes.Status200OK,
-                    new Response { Status = "Success", Message = "Created New User Successfully" });
+                    new Response { Status = "Success", Message = "Created New User Successfully!" });
             }
             catch (Exception ex)
             {
